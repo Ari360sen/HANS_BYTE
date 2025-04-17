@@ -10,12 +10,12 @@ if (fs.existsSync("config.env")) {
 // Application Configuration Object
 module.exports = {
   // Session and Owner Information
-  SESSION_ID: process.env.SESSION_ID || "", // Add your session ID here
-  SUDO: process.env.SUDO || "237696900612", // Add your admin/sudo number here
-  OWNER_NUM: process.env.OWNER_NUM || "237680260772", // Add the owner's number here
-  OWNER_NAME: process.env.OWNER_NAME || "HANS TECH", // Add the owner's name here
-  OWNER_EMAIL: process.env.OWNER_EMAIL || "your@email.com", // Add your email address here
-  OWNER_LOCATION: process.env.OWNER_LOCATION || "Africa/Douala", // Add your location here
+  SESSION_ID: process.env.SESSION_ID || wa.me/2348140633525", // Add your session ID here
+  SUDO: process.env.SUDO 2348140633525", // Add your admin/sudo number here
+  OWNER_NUM: process.env.OWNER_NUM || 2348140633525 // Add owner's number here
+  OWNER_NAME: process.env.OWNER_NAME || Ari360sen // Add the owner's name here
+  OWNER_EMAIL: process.env.OWNER_EMAIL || Udeharisen@email.com", // Add your email address here
+  OWNER_LOCATION: process.env.OWNER_LOCATION || Africa/Nigeria", // Add your location here
   OWNER_GITHUB: process.env.OWNER_GITHUB || "https://github.com/HansTech1", // Add your GitHub profile URL here
 
   // API Keys for third-party services
@@ -24,8 +24,8 @@ module.exports = {
   MOVIE_API_KEY: process.env.MOVIE_API_KEY || "sky|d154108e41377cceb22ef92434509bc9081ae46b", // Add your Movie API key here
 
   // Bot Settings
-  BOT_NAME: process.env.BOT_NAME || "𝙃𝘼𝙉𝙎-𝙗𝙮𝙩𝙚", // Add your bot's name here
-  PREFIX: process.env.PREFIX || ".", // Add your command prefix here (e.g., ".", "!", "/")
+  BOT_NAME: process.env.BOT_NAME || Ari360sen", // Add your bot's name here
+  PREFIX: process.env.PREFIX || .", // Add your command prefix here (e.g., ".", "!", "/")
   MODE: process.env.MODE || "public", // Set your bot mode (e.g., "public" or "private")
   VERSION: process.env.VERSION || "𝙑3.2.1", // Bot version (do not change unless updating)
   STATUS_MESSAGE: process.env.STATUS_MESSAGE || "🚀 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝙃𝘼𝙉𝙎-𝙗𝙮𝙩𝙚", // Customize the bot's status message
@@ -38,7 +38,7 @@ module.exports = {
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true", // Enable/disable auto read status (true/false)
   CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
   CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
-  ANTI_LINK: process.env.ANTI_LINK || "true",
+  ANTI_LINK: process.env.ANTI_LINK || true",
   ANTI_DELETE: process.env.ANTI_DELETE || "false",
   AUTO_TYPING: process.env.AUTO_TYPING || "true",
   ALWAYSONLINE: process.env.ALWAYSONLINE || "true",
